@@ -1,0 +1,46 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+  padding: 20px;
+  background: rgba(11, 18, 32, 0.75);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  position: sticky;
+  z-index: 10;
+  top: 0;
+  backdrop-filter: blur(12px);
+  margin-bottom: 10px;
+}
+
+.navbar .menuItems a {
+  color: aliceblue;
+  display: none;
+}
+.navbar:hover {
+  border: 3px solid tomato;
+}
+.logo img {
+  height: 60px;
+}
+
+.menuItems {
+  display: flex;
+  gap: 25px;
+  font-size: 17px;
+  font-weight: 500;
+  list-style: none;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+}

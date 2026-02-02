@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="page.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <div class="navbar">
+        <!-- logo -->
+        <div class="logo">
+            <img src="assets/images/logo.png" alt="Logo">
+        </div>
+
+        <!-- menu items -->
+        <ul class="menuItems">
+            <li><a href="main.html">Home</a></li>
+            <li><a href="#display-products">Products</a></li>
+            <li><a href="#footer">About</a></li>
+            <li><a href="#footer">Contact</a></li>
+        </ul>
+
+        <!-- button -->
+        <a class="btn-anchor" href="/pages/cart.html">
+            <button class="btn">
+                <img src="assets/icons/cart.svg" alt="cart icon">
+                <span>
+                    Cart
+                </span>
+            </button>
+        </a>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="heroSection">
+        
+        <div class="heroText">
+            <h1>Welcome to Our Store</h1>
+            <p>Your one-stop shop for all your needs. Discover our wide range of products and enjoy exclusive offers.
+            </p>
+            <a href="pages/cart.html">
+                <button class="btn shopNowBtn">Shop Now</button>
+            </a>
+        </div>
+        
+        
+        <div class="heroImage">
+            <img src="assets/images/heroImage.png" alt="Hero Image">
+        </div>
+    </div>
+
+    <!-- category section -->
+
+    <div class="display-products" id="display-products">
+        <!-- Products -->
+        <h1>Product Store</h1>
+        <div class="category-container">
+            <button class="category-btn" id="beauty-id">Beauty</button>Product Store
+            Beauty
+            Fragrances
+            Furniture
+            <button class="category-btn" id="fragrances-id">Fragrances</button>
+            <button class="category-btn" id="furniture-id">Furniture</button>
+        </div>
+<!-- display products -->
+        <div class="grid"></div>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer" class="footer">
+        <div class="summary">
+            <img class="ssStore" src="assets/images/logo.png" alt="Logo">
+            <p>Good products. Same standards. Satyaansh Softech.</p>
+        </div>
+        <div class="quickLinks">
+            <h4>Quick Links</h4>
+            <span> Home </span>
+            <span>Cart</span>
+        </div>
+        <div class="contactUs">
+            <h4>Contact</h4>
+            <span>Email: satyaanshsofttechpvtltd@gmail.com </span>
+            <span>Mobile: 70822 52235</span>
+        </div>
+    
+    </div>
+    
+    <div class="footerCopyright">
+        <span>© 2025 Satyaansh Softech. All Rights Reserved.</span>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

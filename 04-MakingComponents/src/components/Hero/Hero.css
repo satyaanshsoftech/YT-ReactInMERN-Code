@@ -1,0 +1,30 @@
+.heroSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5px;
+  padding: 10px;
+}
+
+.heroText {
+  width: 50%;
+   
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.heroImage img {
+  width: 30vw;
+}
+
+.heroSection:hover {
+  border: 2px solid tomato;
+}
+
+hr {
+  height: 3px;
+  background-color: red;
+}
