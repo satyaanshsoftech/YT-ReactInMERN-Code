@@ -1,0 +1,52 @@
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 24px 28px;
+    background: #ffffff;
+    border: 1px solid #dcdfe4;
+    border-radius: 8px;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.listHeading {
+    margin-bottom: 18px;
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 1px solid #e6e8eb;
+    padding-bottom: 10px;
+}
+
+.listItems {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+.memberCard {
+    width: 180px;
+    padding: 14px 16px;
+    background: #fafbfc;
+    border: 1px solid #cfd6dd;
+    border-left: 4px solid #4a7dbd;
+    border-radius: 6px;
+
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+.memberCard:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+}
+
+.memberName {
+    margin: 0;
+    font-weight: 600;
+    font-size: 15px;
+    color: #1f2d3d;
+}
+
+.memberPost {
+    margin: 4px 0 0;
+    font-size: 13px;
+    color: #6b7785;
+}

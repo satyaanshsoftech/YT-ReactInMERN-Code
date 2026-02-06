@@ -1,0 +1,46 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 28px;
+    background: #ffffff;
+    border-bottom: 1px solid #dcdfe4;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo {
+    height: 44px;
+    width: auto;
+}
+
+.companyName {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1f2d3d;
+    letter-spacing: 0.3px;
+}
+
+.visitBtn {
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 300;
+    background: #1f6feb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mainHeading {
+    text-align: center;
+    margin: 26px 0 10px;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
