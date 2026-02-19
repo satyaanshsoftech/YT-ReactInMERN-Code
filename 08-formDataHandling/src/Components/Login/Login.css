@@ -1,0 +1,51 @@
+ .Container{
+     
+    
+    min-height: 500px;
+    min-width:  500px;
+    display: flex;
+    background-color: #7dc1da;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+ }
+
+ .loginForm{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ }
+
+ .inputField{
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid silver;
+     border-radius: 10px;
+     width: 300px;
+     font-size: large;
+     text-align: center;
+ }
+
+ .btnSubmit{
+    margin-top: 40px;
+   background-color:  #69a3f1;
+    color: white;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 1px dotted white;
+
+ }
+
+ .btnReset{
+     margin-top: 40px;
+   background-color:  #f5f6f8;
+    color: rgb(162, 17, 17);
+    padding: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 1px dotted rgb(192, 18, 18);
+
+ }
