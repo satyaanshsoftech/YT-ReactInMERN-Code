@@ -1,0 +1,144 @@
+ body {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #60a5fa, #3b82f6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+}
+.wrapper {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 1.5rem;
+  padding: 2rem;
+  min-width: 400px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.city {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.temperature {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.condition {
+  font-size: 1.25rem;
+
+}
+.weather-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.forecast {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding-top: 2rem;
+}
+
+.forecast-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.forecast-days {
+  display: flex;
+  justify-content: space-between;
+}
+
+.forecast-day {
+  font-weight: bold;
+}
+
+.forecast-temp,
+.forecast-condition {
+  font-size: 0.875rem;
+}
+
+  
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.loading-img{
+  width: 200px;
+  border-radius: 50%;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+   
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.sun-img{
+  width: 40px;
+}
+
+.wrapper{
+  background: url(../public/weather.png);
+  min-height: 700px;
+  padding: 40px;
+  border-radius: 10px;
+  margin-top: 20px;
+   
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.city-input{
+  padding: 5px;
+  border-radius: 5px;
+ margin-bottom: 20px;
+  background: url();
+  color:black;
+  text-align: center;
+  font-size: large;
+  
+  cursor: pointer;
+ align-items: center;
+  
+}
+
+ .forecast-days{
+  display: flex;
+ 
+  flex-direction: row;
+  gap: 10px;
+   
+ }
